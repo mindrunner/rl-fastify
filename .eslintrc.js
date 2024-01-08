@@ -8,6 +8,8 @@ module.exports = {
     es6: true,
     node: true,
   },
-  rules: {},
+  rules: {
+    "@typescript-eslint/no-misused-promises": "error",
+  },
   extends: ["plugin:@typescript-eslint/recommended"],
 };
